@@ -13,6 +13,8 @@ public class ifprintKRS21 {
         if (uktPaid) {
             System.out.println("UKT payent has been verified");
             System.out.println("KRS now can be printed and you can ask the academic advisor to sign it.");
+        } else {
+            System.out.println("Registration rejected.Please pay UKT first.");
         }
     }
 }
